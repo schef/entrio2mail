@@ -17,11 +17,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    entry_points={
-    #    'console_scripts': [
-    #        'pyzer-service-runner = pyzer_cli.common.service_runner:run',
-    #    ],
-    },
     install_requires=[
+        "pytest-playwright",
+        "IPython",
+        "nest_asyncio",
+        "schedule"
     ],
 )

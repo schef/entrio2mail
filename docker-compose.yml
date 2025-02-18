@@ -1,0 +1,12 @@
+services:
+  entrio2mail:
+    container_name: entrio2mail
+    build:
+      context: ./
+      args:
+        GIT_TOKEN: ${GIT_TOKEN}
+    restart: unless-stopped
+    network_mode: "host"
+    volumes:
+      - ./poschtar_credentials:/root/.config/poschtar
+      - ./entrio2mail_credentials:/root/.config/entrio2mail
