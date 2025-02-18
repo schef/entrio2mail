@@ -172,3 +172,4 @@ cython_debug/
 .venv
 entrio2mail_credentials
 poschtar_credentials
+entrio2mail/credentials.py
