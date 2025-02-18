@@ -19,7 +19,6 @@ setuptools.setup(
     ],
     install_requires=[
         "playwright",
-        "pytest-playwright",
         "IPython",
         "nest_asyncio",
         "schedule"
