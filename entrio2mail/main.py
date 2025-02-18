@@ -89,5 +89,5 @@ def run():
         time.sleep(60)
 
 if __name__ == "__main__":
-    #run()
-    generate_mail(False)
+    run()
+    #generate_mail(False)
