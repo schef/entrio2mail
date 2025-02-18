@@ -170,3 +170,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 .venv
+entrio2mail_credentials
+poschtar_credentials
