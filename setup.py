@@ -18,7 +18,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "playwrite",
+        "playwright",
         "pytest-playwright",
         "IPython",
         "nest_asyncio",
