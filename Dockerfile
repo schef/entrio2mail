@@ -25,6 +25,8 @@ COPY --from=build_poschtar /app /app
 COPY --from=build_entrio2mail /usr/lib/python3.11/site-packages /usr/lib/python3.11/site-packages
 COPY --from=build_entrio2mail /app /app
 
+CMD playwright install chromium
+
 CMD mkdir ~/.config/poschtar
 CMD mkdir ~/.config/entrio2mail
 
